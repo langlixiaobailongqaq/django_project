@@ -1,0 +1,88 @@
+WARNING 2021-10-12 10:02:28,808 log 8420 14012 Not Found: /favicon.ico
+WARNING 2021-10-12 10:28:21,752 log 628 18596 Not Found: /favicon.ico
+WARNING 2021-10-12 10:28:33,944 log 18212 1084 Not Found: /favicon.ico
+ERROR 2021-10-12 10:30:37,751 log 18212 12540 Internal Server Error: /accounts/weibo/login/
+Traceback (most recent call last):
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 77, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\allauth\socialaccount\providers\oauth2\views.py", line 105, in dispatch
+    app = provider.get_app(self.request)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\allauth\socialaccount\providers\base.py", line 49, in get_app
+    return adapter.get_app(request, self.id)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\allauth\socialaccount\adapter.py", line 204, in get_app
+    app = SocialApp.objects.get_current(provider, request)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\allauth\socialaccount\models.py", line 32, in get_current
+    app = self.get(sites__id=site.id, provider=provider)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\BaiduNetdiskDownload\django_project\env\lib\site-packages\django\db\models\query.py", line 406, in get
+    raise self.model.DoesNotExist(
+allauth.socialaccount.models.SocialApp.DoesNotExist: SocialApp matching query does not exist.
+WARNING 2021-10-12 10:42:26,772 log 18212 11340 Not Found: /favicon.ico
+WARNING 2021-10-12 10:43:14,326 log 22356 22144 Not Found: /favicon.ico
+WARNING 2021-10-12 10:43:52,541 log 22356 21656 Not Found: /favicon.ico
+WARNING 2021-10-12 10:43:58,566 log 22356 22648 Not Found: /favicon.ico
+WARNING 2021-10-12 10:44:06,964 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:44:27,156 log 22356 22648 Not Found: /favicon.ico
+WARNING 2021-10-12 10:45:08,588 log 22356 17984 Not Found: /favicon.ico
+WARNING 2021-10-12 10:45:25,660 log 22356 21656 Not Found: /favicon.ico
+WARNING 2021-10-12 10:45:32,928 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:45:39,745 log 22356 22648 Not Found: /favicon.ico
+WARNING 2021-10-12 10:45:46,564 log 22356 21656 Not Found: /favicon.ico
+WARNING 2021-10-12 10:45:54,480 log 22356 22648 Not Found: /favicon.ico
+WARNING 2021-10-12 10:46:06,598 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:47:18,405 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:47:30,137 log 22356 17984 Not Found: /favicon.ico
+WARNING 2021-10-12 10:47:45,894 log 22356 22144 Not Found: /favicon.ico
+WARNING 2021-10-12 10:47:52,381 log 22356 17984 Not Found: /favicon.ico
+WARNING 2021-10-12 10:48:15,106 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:48:20,878 log 22356 22648 Not Found: /favicon.ico
+WARNING 2021-10-12 10:48:25,841 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:49:04,094 log 22356 22648 Not Found: /favicon.ico
+WARNING 2021-10-12 10:49:13,558 log 22356 1720 Not Found: /favicon.ico
+WARNING 2021-10-12 10:49:22,741 log 3236 11048 Not Found: /favicon.ico
+WARNING 2021-10-12 10:49:41,593 log 3236 10308 Not Found: /favicon.ico
+WARNING 2021-10-12 10:49:42,074 log 3236 21940 Not Found: /favicon.ico
+WARNING 2021-10-12 10:50:05,076 log 11912 6652 Not Found: /favicon.ico
+WARNING 2021-10-12 11:27:44,596 log 17236 23372 Not Found: /static/bootstrap/css/bootstrap.min.css
+WARNING 2021-10-12 11:27:44,597 log 17236 23224 Not Found: /static/md_css/monokai.css
+WARNING 2021-10-12 11:27:44,598 log 17236 11952 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:27:44,599 log 17236 20652 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:27:44,652 log 17236 20652 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:27:44,656 log 17236 20652 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:27:46,596 log 17236 20652 Not Found: /static/bootstrap/css/bootstrap.min.css
+WARNING 2021-10-12 11:27:46,597 log 17236 11952 Not Found: /static/md_css/monokai.css
+WARNING 2021-10-12 11:27:46,598 log 17236 23224 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:27:46,599 log 17236 23372 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:27:46,602 log 17236 23372 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:27:46,604 log 17236 23372 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:28:11,347 log 20884 8512 Not Found: /static/bootstrap/css/bootstrap.min.css
+WARNING 2021-10-12 11:28:11,347 log 20884 23848 Not Found: /static/md_css/monokai.css
+WARNING 2021-10-12 11:28:11,348 log 20884 15520 Not Found: /media/article/20210922/1.jpg
+WARNING 2021-10-12 11:28:11,349 log 20884 19128 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:28:11,350 log 20884 23848 Not Found: /media/article/20210922/xyjy.jpg
+WARNING 2021-10-12 11:28:11,352 log 20884 13780 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:28:11,352 log 20884 6700 Not Found: /media/article/20210922/timu.jpg
+WARNING 2021-10-12 11:28:11,364 log 20884 6700 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:28:11,366 log 20884 6700 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:28:11,411 log 20884 6700 Not Found: /favicon.ico
+WARNING 2021-10-12 11:28:14,632 log 20884 6700 Not Found: /static/bootstrap/css/bootstrap.min.css
+WARNING 2021-10-12 11:28:14,633 log 20884 13780 Not Found: /static/md_css/monokai.css
+WARNING 2021-10-12 11:28:14,634 log 20884 23848 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:28:14,635 log 20884 19128 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:28:14,635 log 20884 15520 Not Found: /media/article/20210922/timu.jpg
+WARNING 2021-10-12 11:28:14,636 log 20884 8512 Not Found: /media/article/20210922/1.jpg
+WARNING 2021-10-12 11:28:14,640 log 20884 19128 Not Found: /media/article/20210922/xyjy.jpg
+WARNING 2021-10-12 11:28:14,644 log 20884 19128 Not Found: /static/jquery/jquery-3.6.0.js
+WARNING 2021-10-12 11:28:14,646 log 20884 19128 Not Found: /static/layer/layer.js
+WARNING 2021-10-12 11:52:46,979 log 17820 12976 Not Found: /favicon.ico
+WARNING 2021-10-12 11:52:47,405 log 17820 19120 Not Found: /favicon.ico
+WARNING 2021-10-12 11:53:10,479 log 17820 12976 Not Found: /favicon.ico
+WARNING 2021-10-12 11:53:10,768 log 17820 14832 Not Found: /favicon.ico
+WARNING 2021-10-12 13:38:16,182 log 5540 17144 Not Found: /favicon.ico
